@@ -1,0 +1,485 @@
+body {
+    background-color: rgb(255, 248, 238);
+  }
+  h1 {
+    font-family: "Chicle", "cursive", "Open Sans", sans-serif;
+    padding-top: 50px;
+    text-align: center;
+    font-size: 50px;
+  }
+  h2 {
+    font-family: "Mulish", sans-serif;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  
+  #logo {
+    width: 60px;
+    height: 60px;
+    padding-left: 30px;
+  }
+  .navbar {
+    display: block;
+    overflow: hidden;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    color: #fff;
+  }
+  p {
+    font-size: 18px;
+    overflow: hidden;
+    inline-size: 250px;
+    overflow-wrap: break-word;
+  }
+  
+  a, a:hover, a:visited, a:active {
+      color: inherit;
+      text-decoration: none;
+     }
+  #skillsphoto {
+    padding-top: 150px;
+    width: 350px;
+    height: 250px;
+    padding-bottom: 100px;
+    padding-left: 60px;
+  }
+  #skillsText {
+    font-family: "Mulish", sans-serif;
+    font-size: 20px;
+    float: right;
+    overflow: hidden;
+    inline-size: 550px;
+    overflow-wrap: break-word;
+    padding-right: 300px;
+    padding-top: 220px;
+  }
+  
+  #latestworkphoto {
+    width: 350px;
+    height: 150px;
+    padding-left: 120px;
+    padding-bottom: 50px;
+  }
+  #rootedphoto {
+    width: 700px;
+    height: 350px;
+    border-color: black;
+    padding-left: 50px;
+    padding-bottom: 150px;
+  }
+  #nonprofitphoto {
+    width: 700px;
+    height: 350px;
+    padding-left: 150px;
+    padding-bottom: 150px;
+  }
+  
+  li {
+    display: inline;
+    float: right;
+    padding-top: 20px;
+    color: black;
+    vertical-align: top;
+    padding-right: 100px;
+    font-family: "Mulish", sans-serif;
+    font-style: normal;
+  }
+  
+  #rootedText {
+    /* padding-left: 850px; */
+    font-family: "Chicle", "cursive", "Open Sans", sans-serif;
+    padding-top: 50px;
+    font-size: 50px;
+    float: right;
+    padding-right: 70px;
+  }
+  #rootedParagraph {
+    font-family: "Mulish", sans-serif;
+    font-size: 20px;
+    padding-top: 150px;
+    padding-left: 860px;
+  }
+  #nonprofitText {
+    font-family: "Chicle", "cursive", "Open Sans", sans-serif;
+    padding-top: 50px;
+    font-size: 50px;
+    float: right;
+    padding-right: 50px;
+  }
+  .words {
+    font-family: "Mulish", sans-serif;
+    font-size: 18px;
+    padding-top: 0;
+  }
+  
+  .lines {
+    padding: 10px;
+    display: inline-block;
+    margin: 20px;
+  }
+  
+  hr {
+    border: 1px solid black;
+  }
+  #space {
+    height: 10px;
+    text-align: left;
+  }
+  #workText {
+    font-family: "Chicle", "cursive", "Open Sans", sans-serif;
+    padding-top: 30px;
+    padding-bottom: 200px;
+    padding-left: 150px;
+    font-size: 50px;
+  }
+  #arrowphoto {
+    width: 150px;
+    height: 100px;
+    padding-left: 50px;
+    float: right;
+    margin: 0px;
+    padding-right: 150px;
+  }
+  /* My About Me coded using CSS flexbox */
+  
+  .flexbox-container {
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .flexbox {
+    width: 500px;
+    margin: 10px;
+    padding: 10px;
+    text-align: justify;
+    flex-flow: row;
+    flex: 1 100%;
+    border-radius: 10px;
+  }
+  #p1 {
+    min-height: 30px;
+  }
+  #p2 {
+    min-height: 70px;
+  }
+  #p3 {
+    min-height: 50px;
+  }
+  #p4 {
+    min-height: 50px;
+  }
+  
+  #aidaImg {
+    width: 500px;
+  }
+  
+  #clickResume {
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  
+  button {
+    width: 200px;
+    padding: 10px;
+    left: 530px;
+    height: 50px;
+    border-radius: 20px;
+    border-style: none;
+    background-color: #999b13;
+    color: white;
+    font-family: "Chicle", "cursive", "Open Sans", sans-serif;
+    font-size: 30px;
+    margin-bottom: 100px;
+  }
+  
+  /* Contact Tab */
+  
+  #contactTitle {
+    margin-top: 50px;
+  }
+  
+  #iconGrid {
+    margin: 0px 5%;
+    display: grid;
+    justify-content: center;
+    grid-template-rows: 300px;
+    grid-template-columns: 25% 25%;
+    grid-template-areas: "linkedinIcon gmailIcon resumeIcon";
+  }
+  #linkedinIcon {
+    /* display: flexbox; */
+    grid-area: linkedinIcon;
+    width: 80px;
+  }
+  #gmailIcon {
+    grid-area: gmailnIcon;
+    width: 80px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  #resumeIcon {
+    grid-area: gmailnIcon;
+    width: 80px;
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+  }
+  .footerContactPage {
+    margin-top: 200px;
+  }
+  
+  /* Projects Tab */
+  
+  #rootedPhone {
+    width: 150px;
+    height: 250px;
+    grid-area: rootedPhone;
+  }
+  #carPhone {
+    width: 120px;
+    height: 230px;
+    grid-area: carPhone;
+  }
+  
+  #projectHeading {
+    text-align: center;
+    font-family: "Chicle", "cursive", "Open Sans", sans-serif;
+    font-size: 100px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+  }
+  .grid-item {
+    background-color: rgb(255, 248, 238);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+  .numberTwo {
+    padding-top: 80px;
+  }
+  
+  #rootedHeading {
+    text-align: left;
+  }
+  #carHeading {
+    text-align: left;
+    margin-left: 100px;
+  }
+  
+  .number {
+    font-family: "Chicle", "cursive", "Open Sans", sans-serif;
+    font-size: 90px;
+    padding-top: 80px;
+  }
+  .numberTwo {
+    font-family: "Chicle", "cursive", "Open Sans", sans-serif;
+    font-size: 90px;
+  }
+  
+  
+  footer {
+    text-align: center;
+    margin-top: 100px;
+  }
+  #lineFooter {
+    padding-bottom: 30px;
+    font-family: "Mulish", sans-serif;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  @media only screen and (max-width: 768px) {
+    li {
+      display: flexbox;
+      float: right;
+      padding-top: 20px;
+      color: black;
+      vertical-align: top;
+      padding-right: 30px;
+      font-family: "Mulish", sans-serif;
+      font-style: normal;
+      text-decoration:none;
+    }
+    p {
+      font-size: 18px;
+      overflow: hidden;
+      inline-size: 150px;
+      /* overflow-wrap: break-word; */
+    }
+    .grid-container {
+      display: grid;
+      grid-template-columns: auto auto auto;
+    }
+    .flexContainer {
+      display: flex;
+      padding-right: 400px;
+      text-indent: 50px;
+    }
+  
+    #nonprofitphoto {
+      width: 400px;
+      height: 200px;
+      padding-left: 50px;
+      padding-bottom: 150px;
+    }
+  
+    #rootedphoto {
+      width: 400px;
+      height: 200px;
+      border-color: black;
+      padding-right: 180px;
+      padding-bottom: 150px;
+    }
+    #rootedText {
+      /* padding-left: 850px; */
+      font-family: "Chicle", "cursive", "Open Sans", sans-serif;
+      padding-top: 50px;
+      font-size: 50px;
+      float: right;
+      padding-right: 50px;
+    }
+    #rootedParagraph {
+      font-family: "Mulish", sans-serif;
+      font-size: 20px;
+      padding-top: 150px;
+    }
+    #nonprofitText {
+      font-family: "Chicle", "cursive", "Open Sans", sans-serif;
+      padding-top: 50px;
+      font-size: 50px;
+      float: right;
+      padding-right: 10px;
+    }
+    #workText {
+      font-family: "Chicle", "cursive", "Open Sans", sans-serif;
+      padding-top: 30px;
+      padding-bottom: 200px;
+      padding-left: 40px;
+      font-size: 50px;
+    }
+    #arrowphoto {
+      width: 150px;
+      height: 100px;
+      padding-left: 50px;
+      float: right;
+      margin: 0px;
+      padding-right: 80px;
+      padding-top: 40px;
+    }
+    #latestworkphoto {
+      width: 350px;
+      height: 150px;
+      padding-left: 70px;
+      position: absolute;
+      padding-top: 150px;;
+    }
+  
+    #skillsText {
+      font-family: "Mulish", sans-serif;
+      font-size: 20px;
+      /* float: right; */
+      overflow: hidden;
+      inline-size: 250px;
+      overflow-wrap: break-word;
+      padding-right: 200px;
+      position: relative;
+      bottom: 12em;
+     left: 50px;;
+    }
+    .flex{
+      position: relative;
+      top: -50px;
+     left:30px;
+      width: 100%;
+      margin: 0;
+      text-align: left;
+  }
+    #skillsphoto {
+      padding-top: 150px;
+      width: 350px;
+      height: 250px;
+      /* padding-bottom: 100px; */
+      /* padding-left: 60px; */
+    }
+    .numberTwo {
+      padding-top: 80px;
+    }
+    .lines {
+      padding: 0px;
+      display: inline-block;
+      margin: 20px;
+    }
+    /* About Section */
+    .flexbox-container {
+      height: 1000px;
+      display: flex;
+      flex-direction: column;
+      flex-flow: wrap;
+      justify-content: center;
+      align-items: center;
+    }
+    .flexbox {
+      width: 500px;
+      margin: 15px;
+      padding: 10px;
+      padding-left: 10px;
+      text-align: center, justify;
+      /* flex-flow: row; */
+      /* flex: 1 100%; */
+    }
+    .grid-container {
+      height: 800px;
+      width: 300px;;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      /* justify-content: center; */
+      align-items: left;
+    }
+  
+   
+  }
+  
+  @media only screen and (max-width: 645x) {
+    .flexbox {
+      width: 500px;
+      margin: 10px;
+      padding: 10px;
+      text-align: center, justify;
+      flex-flow: row;
+      /* flex: 1 100%; */
+    }
+    .grid-container {
+      height: 1500px;
+      display: flex;
+      flex-direction: row;
+      /* flex-flow: wrap; */
+      /* justify-content: center; */
+      align-items: left;
+    }
+    .grid-item {
+      background-color: rgb(255, 248, 238);
+      padding: 20px;
+      font-size: 30px;
+      text-align: center;
+    }
+  
+  }
