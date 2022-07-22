@@ -157,7 +157,7 @@ body {
     padding: 10px;
     text-align: justify;
     flex-flow: row;
-    flex: 1 100%;
+    flex-grow: 1 100%;
     border-radius: 10px;
   }
   #p1 {
@@ -182,7 +182,7 @@ body {
     text-align: center;
   }
   
-  button {
+  .clickMyResume {
     width: 200px;
     padding: 10px;
     left: 530px;
@@ -194,22 +194,47 @@ body {
     font-family: "Chicle", "cursive", "Open Sans", sans-serif;
     font-size: 30px;
     margin-bottom: 100px;
+    transition: transform .2s;
   }
+  .clickMyResume:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+  }
+  .typewriter {
+    color: black;
+    font-family: "Mulish", sans-serif;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 5.5s steps(30, end),
+      blink-caret .5s step-end 3;
+  }
+  /* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 45% }
+}
+
+  
   
   /* Contact Tab */
   
   #contactTitle {
-    margin-top: 50px;
+   
+    grid-area: contactTitle;
   }
   
-  #iconGrid {
+  /* .iconGrid {
     margin: 0px 5%;
     display: grid;
     justify-content: center;
     grid-template-rows: 300px;
     grid-template-columns: 25% 25%;
-    grid-template-areas: "linkedinIcon gmailIcon resumeIcon";
-  }
+    grid-template-areas: "contactTitle linkedinIcon gmailIcon resumeIcon";
+  } */
   #linkedinIcon {
     /* display: flexbox; */
     grid-area: linkedinIcon;
@@ -222,7 +247,7 @@ body {
     margin-right: 10px;
   }
   #resumeIcon {
-    grid-area: gmailnIcon;
+    grid-area: resumeIcon;
     width: 80px;
   }
   .container {
@@ -291,7 +316,7 @@ body {
   
   footer {
     text-align: center;
-    margin-top: 100px;
+    margin-top: 150px;
   }
   #lineFooter {
     padding-bottom: 30px;
@@ -304,7 +329,7 @@ body {
   
   
   
-  
+  /* Media Queries */
   
   @media only screen and (max-width: 768px) {
     li {
@@ -326,7 +351,8 @@ body {
     }
     .grid-container {
       display: grid;
-      grid-template-columns: auto auto auto;
+      grid-template-areas: "rootedPhone rootedHeading textforRooted"
+      "carHeading" "textforCar" "carPhone";
     }
     .flexContainer {
       display: flex;
