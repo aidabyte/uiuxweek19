@@ -97,6 +97,7 @@ body {
     font-family: "Chicle", "cursive", "Open Sans", sans-serif;
     padding-top: 50px;
     font-size: 50px;
+    padding-right: 20px;
   }
   #rootedParagraph {
     font-family: "Mulish", sans-serif;
@@ -309,6 +310,7 @@ body {
     font-size: 20px;
     padding-top: 0;
     text-align: left;
+    padding-left: 0px;
   }
   
   
