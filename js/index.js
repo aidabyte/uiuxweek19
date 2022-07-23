@@ -5,7 +5,7 @@ $(document).ready(function(){
       opacity: '5.5',
       height: '100px',
       width: '250px',
-      fontSize: "50px"},"slow");
+      fontSize: "50px"},"fast");
       
     });
     });
