@@ -1,13 +1,14 @@
 $(document).ready(function(){
     
     $(".clickMyResume").mouseover(function(){
-      $(this).animate({width: "560px", height:"500px",fontSize:"100px"});
-      $(".ClickMyResume").mouseout(function(){
-        $(this).animate({width: "260px", height:"50px"});
-       
+      $(this).animate({  center: '250px',
+      opacity: '5.5',
+      height: '100px',
+      width: '250px',
+      fontSize: "50px"},"slow");
+      
     });
-  });
-});
+    });
 ;
 
 

@@ -1,6 +1,13 @@
 body {
     background-color: rgb(255, 248, 238);
   }
+  #resumee{
+    width: 800px;
+    padding-top: 80px;
+
+
+  align-content: center;
+  }
   h1 {
     font-family: "Chicle", "cursive", "Open Sans", sans-serif;
     padding-top: 50px;
@@ -39,11 +46,11 @@ body {
       text-decoration: none;
      }
   #skillsphoto {
-    padding-top: 150px;
+    padding-top: 100px;
     width: 350px;
     height: 250px;
     padding-bottom: 100px;
-    padding-left: 60px;
+    padding-left: 60px; 
   }
   #skillsText {
     font-family: "Mulish", sans-serif;
@@ -53,27 +60,26 @@ body {
     inline-size: 550px;
     overflow-wrap: break-word;
     padding-right: 300px;
-    padding-top: 220px;
+    padding-top: 170px;
+
   }
   
   #latestworkphoto {
     width: 350px;
     height: 150px;
     padding-left: 120px;
-    padding-bottom: 50px;
+    padding-bottom: 50px;;
   }
   #rootedphoto {
     width: 700px;
     height: 350px;
     border-color: black;
-    padding-left: 50px;
-    padding-bottom: 150px;
+
   }
   #nonprofitphoto {
     width: 700px;
     height: 350px;
-    padding-left: 150px;
-    padding-bottom: 150px;
+  
   }
   
   li {
@@ -91,25 +97,20 @@ body {
     font-family: "Chicle", "cursive", "Open Sans", sans-serif;
     padding-top: 50px;
     font-size: 50px;
-    float: right;
-    padding-right: 70px;
   }
   #rootedParagraph {
     font-family: "Mulish", sans-serif;
     font-size: 20px;
-    padding-top: 150px;
-    padding-left: 860px;
   }
   #nonprofitText {
     font-family: "Chicle", "cursive", "Open Sans", sans-serif;
     padding-top: 50px;
     font-size: 50px;
-    float: right;
-    padding-right: 50px;
+
   }
   .words {
     font-family: "Mulish", sans-serif;
-    font-size: 18px;
+    font-size: 10px;
     padding-top: 0;
   }
   
@@ -133,14 +134,7 @@ body {
     padding-left: 550px;
     font-size: 50px;
   }
-  #arrowphoto {
-    width: 150px;
-    height: 100px;
-    padding-left: 50px;
-    float: right;
-    margin: 0px;
-    padding-right: 150px;
-  }
+
   /* My About Me coded using CSS flexbox */
   
   .flexbox-container {
@@ -176,24 +170,16 @@ body {
     width: 500px;
   }
   
-  /* #clickResume {
-    margin-bottom: 50px;
-    text-align: center;
-  } */
-  
   .clickMyResume {
-    /* width: 200px; */
     padding: 10px;
-    /* left: 530px; */
-    /* height: 50px; */
     border-radius: 20px;
     border-style: none;
     background-color: #999b13;
     color: white;
     font-family: "Chicle", "cursive", "Open Sans", sans-serif;
     font-size: 30px;
-    margin-bottom: 100px;
-    /* transition: transform .2s; */
+    /* margin-bottom: 100px;
+    transition: transform .2s; */
   }
  
   .typewriter {
@@ -212,18 +198,10 @@ body {
   from { width: 0 }
   to { width: 45% }
 }
-
-  
   
   /* Contact Tab */
   
-  #contactTitle {
-   
-    grid-area: contactTitle;
-  }
-  
   #linkedinIcon {
-    /* display: flexbox; */
     grid-area: linkedinIcon;
     width: 80px;
   }
@@ -263,10 +241,10 @@ body {
     margin-top: 50px;
     margin-bottom: 100px;
   }
-  
   .grid-container {
     display: grid;
     grid-template-columns: auto auto auto;
+    background-color: rgb(255, 248, 238);
     padding: 10px;
   }
   .grid-item {
@@ -274,27 +252,65 @@ body {
     padding: 20px;
     font-size: 30px;
     text-align: center;
-  }
-  .numberTwo {
-    padding-top: 80px;
+    padding-bottom: 150px;
   }
   
   #rootedHeading {
     text-align: left;
+    font-family: "Mulish", sans-serif;
   }
   #carHeading {
     text-align: left;
-    margin-left: 100px;
+    font-family: "Mulish", sans-serif;
+  }
+  
+  .projectBtn{
+    width: 120px;
+    height: 40px;
+    border-radius: 15px;
+    border-style: none;
+    color: #fff;
+    font-size: 15px;;
+    font-style: bold;
+    font-weight: 500;
+    background-color:#F45C43 ;
+    font-family: "Mulish", sans-serif;
+  }
+  .Btn2{
+    background-color:#F2B20E;
   }
   
   .number {
     font-family: "Chicle", "cursive", "Open Sans", sans-serif;
     font-size: 90px;
     padding-top: 80px;
+    color:#F45C43;
   }
   .numberTwo {
     font-family: "Chicle", "cursive", "Open Sans", sans-serif;
     font-size: 90px;
+    color:#F2B20E;
+    padding-top: 80px;
+  }
+
+  .gridd-container {
+    display: grid;
+    padding: 10px;
+    grid-template-columns:auto auto;
+  }
+  .gridd-item {
+    background-color: rgb(255, 248, 238);
+    padding-left: 30px;
+    font-size: 50px;
+    text-align: left;
+    height: 350px;
+    font-family: "Chicle", "cursive", "Open Sans", sans-serif;
+  }
+  .wordss{
+    font-family: "Mulish", sans-serif;
+    font-size: 20px;
+    padding-top: 0;
+    text-align: left;
   }
   
   
@@ -306,9 +322,7 @@ body {
     padding-bottom: 30px;
     font-family: "Mulish", sans-serif;
   }
-  
-  
-  
+
   
   
   
@@ -331,24 +345,11 @@ body {
       font-size: 18px;
       overflow: hidden;
       inline-size: 150px;
-      /* overflow-wrap: break-word; */
-    }
-    .grid-container {
-      display: grid;
-      grid-template-areas: "rootedPhone rootedHeading textforRooted"
-      "carHeading" "textforCar" "carPhone";
-    }
-    .flexContainer {
-      display: flex;
-      padding-right: 400px;
-      text-indent: 50px;
     }
   
     #nonprofitphoto {
-      width: 400px;
+      width: 200px;
       height: 200px;
-      padding-left: 50px;
-      padding-bottom: 150px;
     }
   
     #rootedphoto {
@@ -359,65 +360,55 @@ body {
       padding-bottom: 150px;
     }
     #rootedText {
-      /* padding-left: 850px; */
+      padding-left: 850px;
       font-family: "Chicle", "cursive", "Open Sans", sans-serif;
       padding-top: 50px;
       font-size: 50px;
       float: right;
       padding-right: 50px;
     }
-    #rootedParagraph {
+    /* #rootedParagraph {
       font-family: "Mulish", sans-serif;
       font-size: 20px;
       padding-top: 150px;
-    }
+    } */
     #nonprofitText {
       font-family: "Chicle", "cursive", "Open Sans", sans-serif;
       padding-top: 50px;
       font-size: 50px;
-      float: right;
+   
       padding-right: 10px;
     }
     #workText {
       font-family: "Chicle", "cursive", "Open Sans", sans-serif;
       padding-top: 30px;
-      padding-bottom: 200px;
+      padding-bottom: 100px;
       padding-left: 40px;
       font-size: 50px;
-    }
-    #arrowphoto {
-      width: 150px;
-      height: 100px;
-      padding-left: 50px;
-      float: right;
-      margin: 0px;
-      padding-right: 80px;
-      padding-top: 40px;
+      padding-left: 100px;
     }
     #latestworkphoto {
       width: 350px;
       height: 150px;
-      padding-left: 70px;
+      padding-left: 80px;
       position: absolute;
-      padding-top: 150px;;
+      padding-top: 60px;;
     }
   
     #skillsText {
       font-family: "Mulish", sans-serif;
       font-size: 20px;
-      /* float: right; */
-      overflow: hidden;
-      inline-size: 250px;
+      float: right;
       overflow-wrap: break-word;
-      padding-right: 200px;
       position: relative;
-      bottom: 12em;
-     left: 50px;;
+      bottom: 8em; 
+      padding-right: 0em;
+      padding-left: 20px;;
     }
     .flex{
       position: relative;
       top: -50px;
-     left:30px;
+      left:30px;
       width: 100%;
       margin: 0;
       text-align: left;
@@ -426,12 +417,10 @@ body {
       padding-top: 150px;
       width: 350px;
       height: 250px;
-      /* padding-bottom: 100px; */
-      /* padding-left: 60px; */
+      padding-bottom: 60px;
+      padding-left: 50px;
     }
-    .numberTwo {
-      padding-top: 80px;
-    }
+  
     .lines {
       padding: 0px;
       display: inline-block;
@@ -453,38 +442,5 @@ body {
       padding-left: 10px;
       text-align: center, justify;
     }
-    .grid-container {
-      height: 800px;
-      width: 300px;;
-      display: flex;
-      flex-direction: column;
-      flex-wrap: wrap;
-      align-items: left;
-    }
-  
    
-  }
-  
-  @media only screen and (max-width: 645x) {
-    .flexbox {
-      width: 500px;
-      margin: 10px;
-      padding: 10px;
-      text-align: center, justify;
-      flex-flow: row;
-    }
-    .grid-container {
-      height: 1500px;
-      display: flex;
-      flex-direction: row;
-    
-      align-items: left;
-    }
-    .grid-item {
-      background-color: rgb(255, 248, 238);
-      padding: 20px;
-      font-size: 30px;
-      text-align: center;
-    }
-  
   }
