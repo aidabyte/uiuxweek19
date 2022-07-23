@@ -10,5 +10,13 @@ $(document).ready(function(){
     });
     });
 ;
+$(".clickMyResume").mouseout(function(){
+  $(this).animate({  center: '150px',
+  opacity: '5.5',
+  height: '50px',
+  width: '150px',
+  fontSize: "20px"},"fast");
+  
+});
 
 
