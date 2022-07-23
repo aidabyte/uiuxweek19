@@ -88,7 +88,6 @@ body {
   }
   
   #rootedText {
-    /* padding-left: 850px; */
     font-family: "Chicle", "cursive", "Open Sans", sans-serif;
     padding-top: 50px;
     font-size: 50px;
@@ -177,16 +176,16 @@ body {
     width: 500px;
   }
   
-  #clickResume {
+  /* #clickResume {
     margin-bottom: 50px;
     text-align: center;
-  }
+  } */
   
   .clickMyResume {
-    width: 200px;
+    /* width: 200px; */
     padding: 10px;
-    left: 530px;
-    height: 50px;
+    /* left: 530px; */
+    /* height: 50px; */
     border-radius: 20px;
     border-style: none;
     background-color: #999b13;
@@ -194,13 +193,9 @@ body {
     font-family: "Chicle", "cursive", "Open Sans", sans-serif;
     font-size: 30px;
     margin-bottom: 100px;
-    transition: transform .2s;
+    /* transition: transform .2s; */
   }
-  .clickMyResume:hover {
-    -ms-transform: scale(1.5); /* IE 9 */
-    -webkit-transform: scale(1.5); /* Safari 3-8 */
-    transform: scale(1.5); 
-  }
+ 
   .typewriter {
     color: black;
     font-family: "Mulish", sans-serif;
@@ -227,14 +222,6 @@ body {
     grid-area: contactTitle;
   }
   
-  /* .iconGrid {
-    margin: 0px 5%;
-    display: grid;
-    justify-content: center;
-    grid-template-rows: 300px;
-    grid-template-columns: 25% 25%;
-    grid-template-areas: "contactTitle linkedinIcon gmailIcon resumeIcon";
-  } */
   #linkedinIcon {
     /* display: flexbox; */
     grid-area: linkedinIcon;
@@ -468,8 +455,6 @@ body {
       padding: 10px;
       padding-left: 10px;
       text-align: center, justify;
-      /* flex-flow: row; */
-      /* flex: 1 100%; */
     }
     .grid-container {
       height: 800px;
@@ -477,7 +462,6 @@ body {
       display: flex;
       flex-direction: column;
       flex-wrap: wrap;
-      /* justify-content: center; */
       align-items: left;
     }
   
@@ -491,14 +475,12 @@ body {
       padding: 10px;
       text-align: center, justify;
       flex-flow: row;
-      /* flex: 1 100%; */
     }
     .grid-container {
       height: 1500px;
       display: flex;
       flex-direction: row;
-      /* flex-flow: wrap; */
-      /* justify-content: center; */
+    
       align-items: left;
     }
     .grid-item {
